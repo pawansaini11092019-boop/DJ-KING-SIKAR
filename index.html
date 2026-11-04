@@ -59,5 +59,17 @@ footer { color: #aaa; padding: 25px; }
   </a>
 </div>
 <footer>❤️ MADE WITH LOVE ❤️<br>DJ KING SIKAR</footer>
-</body>
+<link rel="manifest" href="/DJ-KING-SIKAR/manifest.json">
+<meta name="theme-color" content="#8000ff">
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register(
+      "/DJ-KING-SIKAR/sw.js",
+      { scope: "/DJ-KING-SIKAR/" }
+    );
+  });
+}
+</script></body>
 </html>
