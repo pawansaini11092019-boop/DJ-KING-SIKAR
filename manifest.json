@@ -1,0 +1,27 @@
+{
+  "id": "/DJ-KING-SIKAR/",
+  "name": "DJ KING SIKAR",
+  "short_name": "DJ KING",
+  "description": "DJ KING SIKAR Official App. Latest DJ Songs, Music and Videos.",
+  "start_url": "/DJ-KING-SIKAR/",
+  "scope": "/DJ-KING-SIKAR/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#8000ff",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    {
+      "src": "/DJ-KING-SIKAR/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/DJ-KING-SIKAR/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
